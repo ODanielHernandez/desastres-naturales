@@ -1,5 +1,8 @@
 {
   "name": "ionic-lista-siniestros",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }

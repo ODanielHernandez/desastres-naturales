@@ -1,0 +1,11 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-title>Lista de Desastres</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+        <app-item-siniestro *ngFor="let siniestro of siniestros" [siniestroItem]="siniestro"></app-item-siniestro>
+    </ion-list>
+</ion-content>

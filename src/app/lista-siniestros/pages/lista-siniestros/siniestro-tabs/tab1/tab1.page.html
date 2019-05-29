@@ -1,0 +1,56 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="lista-siniestros"></ion-back-button>
+        </ion-buttons>
+        <ion-title class="ion-text-capitalize">{{ loadedSiniestro.titulo }}</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-grid no-padding>
+        <ion-row>
+            <ion-col no-padding>
+                <ion-img [src]="loadedSiniestro.imgUrl"></ion-img>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <h1 text-center class="ion-text-capitalize">{{ loadedSiniestro.titulo }}</h1>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <p class="ion-text-justify">{{ loadedSiniestro.descripcion }}</p>
+            </ion-col>
+        </ion-row>
+        <ion-card>
+            <ion-item-divider color="primary">
+                <ion-segment class="white">
+                    <ion-segment-button checked (click)="segmentButtonClicked('antes')">
+                        <ion-label>Antes</ion-label>
+                        <ion-icon name="hand"></ion-icon>
+                    </ion-segment-button>
+                    <ion-segment-button (click)="segmentButtonClicked('durante')">
+                        <ion-label>Durante</ion-label>
+                        <ion-icon name="alert"></ion-icon>
+                    </ion-segment-button>
+                    <ion-segment-button (click)="segmentButtonClicked('despues')">
+                        <ion-label>Despues</ion-label>
+                        <ion-icon name="walk"></ion-icon>
+                    </ion-segment-button>
+                </ion-segment>
+            </ion-item-divider>
+            <ion-card-header> ¿Qué hacer {{currentValue}} de un {{ loadedSiniestro.titulo }}?</ion-card-header>
+            <ion-card-content>
+                <ion-row>
+                    <ion-col>
+                        <ion-item *ngFor="let ig of loadedSiniestro[currentValue]" class="ion-text-justify">
+                            {{ ig }}
+                        </ion-item>
+                    </ion-col>
+                </ion-row>
+            </ion-card-content>
+        </ion-card>
+    </ion-grid>
+</ion-content>

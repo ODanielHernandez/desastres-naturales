@@ -1,0 +1,7 @@
+{
+    "appId": "com.lista-desastres",
+    "appName": "ionic-lista-siniestros",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "www"
+}

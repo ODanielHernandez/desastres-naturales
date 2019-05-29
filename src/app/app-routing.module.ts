@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
+
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', loadChildren: './home/home.module#HomePageModule' },
+  { path: '', loadChildren: './lista-siniestros/pages/menu/menu.module#MenuPageModule'},
+  { path: 'modal', loadChildren: './lista-siniestros/pages/lista-siniestros/siniestro-tabs/tab2/modal/modal.module#ModalPageModule' }
 ];
 
 @NgModule({
