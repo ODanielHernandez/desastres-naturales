@@ -9,18 +9,11 @@ import { ListaSiniestrosPage } from './lista-siniestros.page';
 import { ItemSiniestroComponent } from './item-siniestro/item-siniestro.component';
 
 const routes: Routes = [
-  { path: '',
-    component: ListaSiniestrosPage,
-    children: [
-      {
-        path: 'tabs/:siniestroId',
-        loadChildren: './siniestro-tabs/tabs/tabs.module#TabsPageModule'
-      }
-    ]}
+  {
+    path: '',
+    component: ListaSiniestrosPage
+  }
 ];
-
-
-
 
 @NgModule({
   imports: [

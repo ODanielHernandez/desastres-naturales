@@ -19,12 +19,12 @@ const routes: Routes = [
       {
         path: 'map',
         loadChildren: '../map/map.module#MapPageModule'
+      },
+      {
+        path: 'lista-siniestros/:siniestroId',
+        loadChildren: '../lista-siniestros/siniestro-tabs/tabs/tabs.module#TabsPageModule'
       }
     ]
-  },
-  {
-    path: '',
-    redirectTo: '/menu/lista-siniestros'
   }
 ];
 
