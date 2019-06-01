@@ -8,7 +8,20 @@
 </ion-header>
 
 <ion-content>
+    <ion-item-divider>
+        <ion-label>
+            Lista de riesgos meteorológicos
+        </ion-label>
+    </ion-item-divider>
     <ion-list>
-        <app-item-siniestro *ngFor="let siniestro of siniestros" [siniestroItem]="siniestro"></app-item-siniestro>
+        <app-item-siniestro *ngFor="let siniestro of (siniestros | slice: 0:5)" [siniestroItem]="siniestro"></app-item-siniestro>
+    </ion-list>
+    <ion-item-divider>
+        <ion-label>
+            Lista de desastres climatológicos
+        </ion-label>
+    </ion-item-divider>
+    <ion-list>
+        <app-item-siniestro *ngFor="let siniestro of (siniestros | slice: 5)" [siniestroItem]="siniestro"></app-item-siniestro>
     </ion-list>
 </ion-content>

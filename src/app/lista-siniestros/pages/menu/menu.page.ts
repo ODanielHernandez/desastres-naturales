@@ -8,6 +8,7 @@ import { Router, RouterEvent } from '@angular/router';
 })
 export class MenuPage implements OnInit {
 
+
   pages = [
     {
       title: 'Lista Desastres',

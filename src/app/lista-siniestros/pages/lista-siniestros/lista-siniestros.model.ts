@@ -7,4 +7,5 @@ export interface Siniestro {
     durante: string[];
     despues: string[];
     ubicacion: string[];
+    sintomas: string[];
 }
