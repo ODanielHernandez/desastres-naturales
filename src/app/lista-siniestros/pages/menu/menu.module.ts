@@ -21,10 +21,23 @@ const routes: Routes = [
         loadChildren: '../map/map.module#MapPageModule'
       },
       {
+        path: 'materiales',
+        loadChildren: '../materiales/materiales.module#MaterialesPageModule'
+      },
+      {
+        path: 'contactos',
+        loadChildren: '../contactos/contactos.module#ContactosPageModule'
+      },
+      {
         path: 'lista-siniestros/:siniestroId',
         loadChildren: '../lista-siniestros/siniestro-tabs/tabs/tabs.module#TabsPageModule'
       }
     ]
+  },
+  {
+    path: '',
+    redirectTo: 'menu/lista-siniestros',
+    pathMatch: 'full'
   }
 ];
 

@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   { path: '', loadChildren: './lista-siniestros/pages/menu/menu.module#MenuPageModule'},
-  { path: 'modal', loadChildren: './lista-siniestros/pages/lista-siniestros/siniestro-tabs/tab2/modal/modal.module#ModalPageModule' }
+  { path: 'modal', loadChildren: './lista-siniestros/pages/materiales/modal/modal.module#ModalPageModule' }
 ];
 
 @NgModule({

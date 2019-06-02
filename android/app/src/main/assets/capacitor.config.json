@@ -1,7 +1,7 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "ionic-lista-siniestros",
-  "bundledWebRuntime": false,
-  "npmClient": "npm",
-  "webDir": "www"
+    "appId": "com.lista_desastres",
+    "appName": "Ahome Guardian",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "www"
 }

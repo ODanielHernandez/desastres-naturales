@@ -8,4 +8,5 @@ export interface Siniestro {
     despues: string[];
     ubicacion: string[];
     sintomas: string[];
+    mochila: string[];
 }

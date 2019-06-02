@@ -6,7 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { Tab2Page } from './tab2.page';
-import { MaterialItemComponent } from './material-item/material-item.component';
+import { MaterialItemComponent } from '../../../materiales/material-item/material-item.component';
 
 const routes: Routes = [
   {

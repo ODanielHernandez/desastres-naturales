@@ -27,7 +27,9 @@ export class ListaSiniestrosService {
     // tslint:disable-next-line: max-line-length
     ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
     // tslint:disable-next-line: max-line-length
-    sintomas: [this.noHay]
+    sintomas: [this.noHay],
+    // tslint:disable-next-line: max-line-length
+    mochila: ['hola', 'como', 'estas']
     },
     {
       id: 'S2',
@@ -45,7 +47,9 @@ export class ListaSiniestrosService {
       // tslint:disable-next-line: max-line-length
       ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
       // tslint:disable-next-line: max-line-length
-      sintomas: [this.noHay]
+      sintomas: [this.noHay],
+      // tslint:disable-next-line: max-line-length
+      mochila: [this.noHay]
     },
     {
       id: 'S3',
@@ -63,7 +67,9 @@ export class ListaSiniestrosService {
       // tslint:disable-next-line: max-line-length
       ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
       // tslint:disable-next-line: max-line-length
-      sintomas: [this.noHay]
+      sintomas: [this.noHay],
+      // tslint:disable-next-line: max-line-length
+      mochila: [this.noHay]
     },
     {
       id: 'S4',
@@ -81,7 +87,9 @@ export class ListaSiniestrosService {
       // tslint:disable-next-line: max-line-length
       ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
       // tslint:disable-next-line: max-line-length
-      sintomas: [this.noHay]
+      sintomas: [this.noHay],
+      // tslint:disable-next-line: max-line-length
+      mochila: [this.noHay]
     },
     {
       id: 'S5',
@@ -99,7 +107,9 @@ export class ListaSiniestrosService {
       // tslint:disable-next-line: max-line-length
       ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
       // tslint:disable-next-line: max-line-length
-      sintomas: [this.noHay]
+      sintomas: [this.noHay],
+      // tslint:disable-next-line: max-line-length
+      mochila: [this.noHay]
     },
     {
     id: 'C1',
@@ -117,7 +127,9 @@ export class ListaSiniestrosService {
     // tslint:disable-next-line: max-line-length
     ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
     // tslint:disable-next-line: max-line-length
-    sintomas: [this.noHay]
+    sintomas: [this.noHay],
+    // tslint:disable-next-line: max-line-length
+    mochila: [this.noHay]
   },
   {
     id: 'C2',
@@ -135,7 +147,9 @@ export class ListaSiniestrosService {
     // tslint:disable-next-line: max-line-length
     ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
     // tslint:disable-next-line: max-line-length
-    sintomas: [this.noHay]
+    sintomas: [this.noHay],
+    // tslint:disable-next-line: max-line-length
+    mochila: [this.noHay]
   },
   {
     id: 'C3',
@@ -153,7 +167,9 @@ export class ListaSiniestrosService {
     // tslint:disable-next-line: max-line-length
     ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
     // tslint:disable-next-line: max-line-length
-    sintomas: [this.noHay]
+    sintomas: [this.noHay],
+    // tslint:disable-next-line: max-line-length
+    mochila: [this.noHay]
   },
   {
     id: 'C4',
@@ -171,7 +187,9 @@ export class ListaSiniestrosService {
     // tslint:disable-next-line: max-line-length
     ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
     // tslint:disable-next-line: max-line-length
-    sintomas: ['Temperatura corporal de 40 °C o mayor', 'Confusión o dificultad para pensar con claridad.', 'Ver o escuchar cosas que no son reales (alucinaciones).', 'Dificultad para caminar.', 'Convulsiones', 'Pérdida del conocimiento.', 'Respiración rápida.', 'Latidos cardíacos acelerados.', 'Descenso de la presión arterial (hipotensión arterial).', 'Piel enrojecida y caliente.', 'Vómitos o diarrea.', 'Calambres musculares o debilidad.', 'Dolor de cabeza.']
+    sintomas: ['Temperatura corporal de 40 °C o mayor', 'Confusión o dificultad para pensar con claridad.', 'Ver o escuchar cosas que no son reales (alucinaciones).', 'Dificultad para caminar.', 'Convulsiones', 'Pérdida del conocimiento.', 'Respiración rápida.', 'Latidos cardíacos acelerados.', 'Descenso de la presión arterial (hipotensión arterial).', 'Piel enrojecida y caliente.', 'Vómitos o diarrea.', 'Calambres musculares o debilidad.', 'Dolor de cabeza.'],
+    // tslint:disable-next-line: max-line-length
+    mochila: [this.noHay]
   },
   {
     id: 'C5',
@@ -189,7 +207,9 @@ export class ListaSiniestrosService {
     // tslint:disable-next-line: max-line-length
     ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis', 'Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
     // tslint:disable-next-line: max-line-length
-    sintomas: ['Escalofríos', 'Dificultad para hablar.', 'Respiración anormalmente lenta.', 'Piel fría y pálida.', 'Pérdida de la coordinación.', 'La fatiga, letargo o apatía.', 'Confusión o pérdida de la memoria.', '']
+    sintomas: ['Escalofríos', 'Dificultad para hablar.', 'Respiración anormalmente lenta.', 'Piel fría y pálida.', 'Pérdida de la coordinación.', 'La fatiga, letargo o apatía.', 'Confusión o pérdida de la memoria.', ''],
+    // tslint:disable-next-line: max-line-length
+    mochila: [this.noHay]
   }
   ];
 

@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
 import { IonicStorageModule } from '@ionic/storage';
-import { ModalPageModule } from './lista-siniestros/pages/lista-siniestros/siniestro-tabs/tab2/modal/modal.module';
+import { ModalPageModule } from './lista-siniestros/pages/materiales/modal/modal.module';
 
 @NgModule({
   declarations: [AppComponent],

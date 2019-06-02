@@ -17,6 +17,14 @@ export class MenuPage implements OnInit {
     {
       title: 'Mapa',
       url: '/menu/map'
+    },
+    {
+      title: 'Materiales',
+      url: '/menu/materiales'
+    },
+    {
+      title: 'Contactos',
+      url: '/menu/contactos'
     }
   ];
 
