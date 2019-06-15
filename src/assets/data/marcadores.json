@@ -1,0 +1,17 @@
+{
+    "albergues": [{
+            "name": "UAS",
+            "title": "Albergue1",
+            "description": "Albergue ubicado en el teatro de la universidad autonoma de sinaloa",
+            "latitude": 25.8151812,
+            "longitude": -108.9809081
+        },
+        {
+            "name": "ITLM",
+            "title": "Albergue2",
+            "description": "Albergue ubicado en el domo del instituto tecnológico de los mochis",
+            "latitude": 25.8052662,
+            "longitude": -108.9827284
+        }
+    ]
+}

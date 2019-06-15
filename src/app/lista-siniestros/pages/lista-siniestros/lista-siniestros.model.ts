@@ -6,7 +6,6 @@ export interface Siniestro {
     antes: string[];
     durante: string[];
     despues: string[];
-    ubicacion: string[];
     sintomas: string[];
-    mochila: string[];
+    mochila: { value: string, isChecked: boolean }[]
 }

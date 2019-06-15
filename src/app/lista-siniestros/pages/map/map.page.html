@@ -8,5 +8,27 @@
 </ion-header>
 
 <ion-content>
-    <div #mapElement class="map"></div>
+    <div #mapElement class="map">
+    </div>
+
+    <ion-fab vertical="center" horizontal="end" slot="fixed">
+        <ion-fab-button>
+            <ion-icon name="search"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-list side="top">
+            <ion-fab-button (click)="mostrarAyudas($event)">
+                <ion-icon name="medkit"></ion-icon>
+            </ion-fab-button>
+        </ion-fab-list>
+        <ion-fab-list side="bottom">
+            <ion-fab-button (click)="mostrarAlbergues($event)">
+                <ion-icon name="home"></ion-icon>
+            </ion-fab-button>
+        </ion-fab-list>
+        <ion-fab-list side="start">
+            <ion-fab-button (click)="mostrarInundaciones($event)">
+                <ion-icon name="water"></ion-icon>
+            </ion-fab-button>
+        </ion-fab-list>
+    </ion-fab>
 </ion-content>

@@ -1,0 +1,39 @@
+{
+    "inundaciones": [{
+            "name": "",
+            "danger": "",
+            "latitude": 25.7905041,
+            "longitude": -108.9987494
+        },
+        {
+            "name": "",
+            "danger": "",
+            "latitude": 25.790735,
+            "longitude": -108.976561
+        },
+        {
+            "name": "",
+            "danger": "",
+            "latitude": 25.798934,
+            "longitude": -108.9905977
+        },
+        {
+            "name": "",
+            "danger": "",
+            "latitude": 25.818933,
+            "longitude": -108.9971257
+        },
+        {
+            "name": "",
+            "danger": "",
+            "latitude": 25.765829,
+            "longitude": -108.9912357
+        },
+        {
+            "name": "",
+            "danger": "",
+            "latitude": 25.763333,
+            "longitude": -109.0004477
+        }
+    ]
+}

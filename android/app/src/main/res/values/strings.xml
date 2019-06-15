@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">Ahome Guardian</string>
-    <string name="title_activity_main">Ahome Guardian</string>
-    <string name="package_name">com.lista_desastres</string>
-    <string name="fileprovider_authority">com.lista_desastres.fileprovider</string>
-    <string name="custom_url_scheme">com.lista_desastres</string>
-</resources>

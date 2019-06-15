@@ -25,11 +25,22 @@ export class ListaSiniestrosService {
     // tslint:disable-next-line: max-line-length
     despues:[this.noHay],
     // tslint:disable-next-line: max-line-length
-    ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
-    // tslint:disable-next-line: max-line-length
     sintomas: [this.noHay],
     // tslint:disable-next-line: max-line-length
-    mochila: ['hola', 'como', 'estas']
+    mochila: [
+      {value: 'Documentos importantes', isChecked: false},
+      {value: 'Recetas Médicas', isChecked: false},
+      {value: 'Dispositivos móviles con bateria', isChecked: false},
+      {value: 'Dinero en efectivo', isChecked: false},
+      {value: 'Linternas de bateria', isChecked: false},
+      {value: 'Velas', isChecked: false},
+      {value: 'Botiquín de primero auxilios', isChecked: false},
+      {value: 'Bolsas de plástico', isChecked: false},
+      {value: 'Mochilas con ropa', isChecked: false},
+      {value: 'Agua', isChecked: false},
+      {value: 'Alimentos enlatados no perecederos', isChecked: false},
+      {value: 'Suministros para tus mascotas', isChecked: false},
+    ]
     },
     {
       id: 'S2',
@@ -45,11 +56,22 @@ export class ListaSiniestrosService {
       // tslint:disable-next-line: max-line-length
       despues:[this.noHay],
       // tslint:disable-next-line: max-line-length
-      ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
-      // tslint:disable-next-line: max-line-length
       sintomas: [this.noHay],
       // tslint:disable-next-line: max-line-length
-      mochila: [this.noHay]
+      mochila: [
+        {value: 'Documentos importantes', isChecked: false},
+        {value: 'Recetas Médicas', isChecked: false},
+        {value: 'Dispositivos móviles con bateria', isChecked: false},
+        {value: 'Dinero en efectivo', isChecked: false},
+        {value: 'Linternas de bateria', isChecked: false},
+        {value: 'Velas', isChecked: false},
+        {value: 'Botiquín de primero auxilios', isChecked: false},
+        {value: 'Bolsas de plástico', isChecked: false},
+        {value: 'Mochilas con ropa', isChecked: false},
+        {value: 'Agua', isChecked: false},
+        {value: 'Alimentos enlatados no perecederos', isChecked: false},
+        {value: 'Suministros para tus mascotas', isChecked: false},
+      ]
     },
     {
       id: 'S3',
@@ -65,11 +87,22 @@ export class ListaSiniestrosService {
       // tslint:disable-next-line: max-line-length
       despues:[this.noHay],
       // tslint:disable-next-line: max-line-length
-      ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
-      // tslint:disable-next-line: max-line-length
       sintomas: [this.noHay],
       // tslint:disable-next-line: max-line-length
-      mochila: [this.noHay]
+      mochila: [
+        {value: 'Documentos importantes', isChecked: false},
+        {value: 'Recetas Médicas', isChecked: false},
+        {value: 'Dispositivos móviles con bateria', isChecked: false},
+        {value: 'Dinero en efectivo', isChecked: false},
+        {value: 'Linternas de bateria', isChecked: false},
+        {value: 'Velas', isChecked: false},
+        {value: 'Botiquín de primero auxilios', isChecked: false},
+        {value: 'Bolsas de plástico', isChecked: false},
+        {value: 'Mochilas con ropa', isChecked: false},
+        {value: 'Agua', isChecked: false},
+        {value: 'Alimentos enlatados no perecederos', isChecked: false},
+        {value: 'Suministros para tus mascotas', isChecked: false},
+      ]
     },
     {
       id: 'S4',
@@ -85,11 +118,22 @@ export class ListaSiniestrosService {
       // tslint:disable-next-line: max-line-length
       despues:[this.noHay],
       // tslint:disable-next-line: max-line-length
-      ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
-      // tslint:disable-next-line: max-line-length
       sintomas: [this.noHay],
       // tslint:disable-next-line: max-line-length
-      mochila: [this.noHay]
+      mochila: [
+        {value: 'Documentos importantes', isChecked: false},
+        {value: 'Recetas Médicas', isChecked: false},
+        {value: 'Dispositivos móviles con bateria', isChecked: false},
+        {value: 'Dinero en efectivo', isChecked: false},
+        {value: 'Linternas de bateria', isChecked: false},
+        {value: 'Velas', isChecked: false},
+        {value: 'Botiquín de primero auxilios', isChecked: false},
+        {value: 'Bolsas de plástico', isChecked: false},
+        {value: 'Mochilas con ropa', isChecked: false},
+        {value: 'Agua', isChecked: false},
+        {value: 'Alimentos enlatados no perecederos', isChecked: false},
+        {value: 'Suministros para tus mascotas', isChecked: false},
+      ]
     },
     {
       id: 'S5',
@@ -105,11 +149,21 @@ export class ListaSiniestrosService {
       // tslint:disable-next-line: max-line-length
       despues:['En caso de haber quedado atrapado, conserva la calma y trata de comunicarte al exterior','Cierra las llaves de agua y gas. Si percibes olor a gas desconecta el interruptor de energía electrica','No enciendas cerillos ni equipo que origine flama o aquellos artículos eléctricos que puedan producir chispa', 'Usa el teléfono sólo para emergencias', 'Efectúa una cuidadosa revisión de los daños en tu casa antes de ingresar, si son graves no entres. Si estás en tu trabajo o escuela y si se considera que es más seguro evacuar el edificio, habrá que hacerlo', 'mantenete alejado de áreas de desastre'],
       // tslint:disable-next-line: max-line-length
-      ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
-      // tslint:disable-next-line: max-line-length
       sintomas: [this.noHay],
       // tslint:disable-next-line: max-line-length
-      mochila: [this.noHay]
+      mochila: [
+        {value: 'Botiquín de primeros auxilios', isChecked: false},
+        {value: 'Artículos de higiene', isChecked: false},
+        {value: 'Alimentos', isChecked: false},
+        {value: 'Abrigos', isChecked: false},
+        {value: 'Dinero en efectivo', isChecked: false},
+        {value: 'Linternas', isChecked: false},
+        {value: 'Radio portátil', isChecked: false},
+        {value: 'Silbato', isChecked: false},
+        {value: 'Documentos importantes', isChecked: false},
+        {value: 'Mascarillas', isChecked: false},
+        {value: 'Encendedor', isChecked: false},
+      ]
     },
     {
     id: 'C1',
@@ -125,11 +179,15 @@ export class ListaSiniestrosService {
     // tslint:disable-next-line: max-line-length
     despues:['Si tuvo que dejar la casa, no regrese a ella hasta que las autoridades indiquen que lo pueden hacer.', 'Su casa debe ser revisada, ya que es probable que se derrumbe, no entre a ella hasta que estén seguros de que la pueden usar. ', 'No se acerque a construcciones que es posible que se derrumben.', 'No toque ni pise cables eléctricos caídos.', 'No tome alimentos ni comida que haya sido mojada por el agua de la inundación.', 'No se acerque a la zona inundada ya que su presencia puede entorpecer el trabajo de las personas que auxilian a otros afectados.', 'Los heridos no se deben mover, es mejor avisar a las personas especializadas para este tipo de ayuda.', 'Escuche la radio o vea la televisión para obtener información sobre la emergencia, y posibles instrucciones de la autoridad a cargo.', 'Vuelva a su hogar sólo cuando sea seguro o las autoridades así lo indiquen. No entre a los edificios si todavía hay agua alrededor.'],
     // tslint:disable-next-line: max-line-length
-    ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
-    // tslint:disable-next-line: max-line-length
     sintomas: [this.noHay],
     // tslint:disable-next-line: max-line-length
-    mochila: [this.noHay]
+    mochila: [
+      {value: 'Documentos importantes', isChecked: false},
+      {value: 'Radio y lámpara con pilas', isChecked: false},
+      {value: 'Víveres', isChecked: false},
+      {value: 'Kit de herramientas', isChecked: false},
+      {value: 'Botiquín de primeros auxilios', isChecked: false},
+    ]
   },
   {
     id: 'C2',
@@ -145,11 +203,20 @@ export class ListaSiniestrosService {
     // tslint:disable-next-line: max-line-length
     despues:[this.noHay],
     // tslint:disable-next-line: max-line-length
-    ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
-    // tslint:disable-next-line: max-line-length
     sintomas: [this.noHay],
     // tslint:disable-next-line: max-line-length
-    mochila: [this.noHay]
+    mochila: [
+      {value: 'Botiquín de primeros auxilios', isChecked: false},
+      {value: 'Radio con pilas', isChecked: false},
+      {value: 'Lamparas con pilas', isChecked: false},
+      {value: 'Fósforos o encendedor', isChecked: false},
+      {value: 'Velas', isChecked: false},
+      {value: 'Botiquín de primeros auxilios', isChecked: false},
+      {value: 'Ropa abrigadora', isChecked: false},
+      {value: 'Pasamontañas', isChecked: false},
+      {value: 'Prendas en general para protegerte del frío', isChecked: false},
+      {value: 'Alimentos altos en grasas, alta caloría y carbohidratos', isChecked: false}
+    ]
   },
   {
     id: 'C3',
@@ -165,11 +232,12 @@ export class ListaSiniestrosService {
     // tslint:disable-next-line: max-]line-length
     despues:[this.noHay],
     // tslint:disable-next-line: max-line-length
-    ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
-    // tslint:disable-next-line: max-line-length
     sintomas: [this.noHay],
     // tslint:disable-next-line: max-line-length
-    mochila: [this.noHay]
+    mochila: [
+      {value: 'Almacenar agua para emergencias', isChecked: false},
+      {value: 'Toma en cuenta un sistema para juntar agua', isChecked: false}
+    ]
   },
   {
     id: 'C4',
@@ -185,11 +253,12 @@ export class ListaSiniestrosService {
     // tslint:disable-next-line: max-line-length
     despues:['Haber presentado un golpe de calor o estar insolado le hace más sensible a las condiciones calurosas  durante  más  o  menos  una  semana  después.  Tenga  especial  cuidado  de  no ejercitarse demasiado y evite el clima caluroso. Pregúntele a su médico cuándo puede volver a realizar sus actividades normales sin que esto represente ningún riesgo para usted.'],
     // tslint:disable-next-line: max-line-length
-    ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis','Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
-    // tslint:disable-next-line: max-line-length
     sintomas: ['Temperatura corporal de 40 °C o mayor', 'Confusión o dificultad para pensar con claridad.', 'Ver o escuchar cosas que no son reales (alucinaciones).', 'Dificultad para caminar.', 'Convulsiones', 'Pérdida del conocimiento.', 'Respiración rápida.', 'Latidos cardíacos acelerados.', 'Descenso de la presión arterial (hipotensión arterial).', 'Piel enrojecida y caliente.', 'Vómitos o diarrea.', 'Calambres musculares o debilidad.', 'Dolor de cabeza.'],
     // tslint:disable-next-line: max-line-length
-    mochila: [this.noHay]
+    mochila: [
+      {value: 'Refrigerar aguas en botella', isChecked: false},
+      {value: 'Llenate de alimentos fríos', isChecked: false}
+    ]
   },
   {
     id: 'C5',
@@ -205,11 +274,18 @@ export class ListaSiniestrosService {
     // tslint:disable-next-line: max-]line-length
     despues:[this.noHay],
     // tslint:disable-next-line: max-line-length
-    ubicacion: ['Cobaes 02: Los Mochis', 'Cobaes 03: Villa de Ahome', 'Conalep: Ejido Chihuahuita', 'Cobaes 58: El Guayabo', 'Icatsin: Topolobampo','Casa ejidal: Ejido Mochis', 'Casa Higuera de Zaragoza:Sindicatura El Carrizo', 'Casa ejidal: San Miguel','Sindicatura: Ahome','Secundaria IMA: Los Mochis','Auditorio CIE: Los Mochis','Tecnológico: Los Mochis', 'Teatro de UAS: Los Mochis','Prepas UAS en Ahome, El Fuerte y El Carrizo.'],
+    sintomas: ['Escalofríos', 'Dificultad para hablar.', 'Respiración anormalmente lenta.', 'Piel fría y pálida.', 'Pérdida de la coordinación.', 'La fatiga, letargo o apatía.', 'Confusión o pérdida de la memoria.'],
     // tslint:disable-next-line: max-line-length
-    sintomas: ['Escalofríos', 'Dificultad para hablar.', 'Respiración anormalmente lenta.', 'Piel fría y pálida.', 'Pérdida de la coordinación.', 'La fatiga, letargo o apatía.', 'Confusión o pérdida de la memoria.', ''],
-    // tslint:disable-next-line: max-line-length
-    mochila: [this.noHay]
+    mochila: [
+      {value: 'Fósfotos o encendedor', isChecked: false},
+      {value: 'Velas', isChecked: false},
+      {value: 'Botiquín de primeros auxilios', isChecked: false},
+      {value: 'Ropa de abrigo', isChecked: false},
+      {value: 'Pasamontañas', isChecked: false},
+      {value: 'Prendas en general para protegerte del frío', isChecked: false},
+      {value: 'Refrigerar aguas en botella', isChecked: false},
+      {value: 'Alimentos altos en grasas, alta caloría y carbohidratos', isChecked: false}
+    ]
   }
   ];
 
@@ -224,5 +300,4 @@ export class ListaSiniestrosService {
       return siniestro.id === siniestroId;
     })};
   }
-
 }

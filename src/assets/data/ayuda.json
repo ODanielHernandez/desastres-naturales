@@ -1,0 +1,21 @@
+{
+    "ayudas": [{
+            "name": "Bomberos",
+            "danger": "",
+            "latitude": 25.7829178,
+            "longitude": -108.9959182
+        },
+        {
+            "name": "Transito",
+            "danger": "",
+            "latitude": 25.7682018,
+            "longitude": -108.9959182
+        },
+        {
+            "name": "Protección Civil",
+            "danger": "",
+            "latitude": 25.7715252,
+            "longitude": -108.9984915
+        }
+    ]
+}

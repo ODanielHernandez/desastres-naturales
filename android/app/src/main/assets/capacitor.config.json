@@ -1,7 +1,0 @@
-{
-    "appId": "com.lista_desastres",
-    "appName": "Ahome Guardian",
-    "bundledWebRuntime": false,
-    "npmClient": "npm",
-    "webDir": "www"
-}

@@ -15,6 +15,7 @@ import { MaterialService } from './material.service';
 
 export class Tab2Page implements OnInit {
   loadedSiniestro: Siniestro;
+
   @ViewChild(IonReorderGroup) reorderGroup: IonReorderGroup;
 
   constructor(
@@ -26,8 +27,6 @@ export class Tab2Page implements OnInit {
 
 }
 
-
-
  ngOnInit(){
   this.loadedSiniestro = this.listaSiniestrosService.getSiniestro(this.global.globalSiniestroId);
  }
@@ -37,11 +36,13 @@ export class Tab2Page implements OnInit {
  }
 
 
+
+
 doReorder(ev: any) {
   let draggedItem = this.loadedSiniestro.mochila.splice(ev.detail.from,1)[0];
   this.loadedSiniestro.mochila.splice(ev.detail.to,0,draggedItem)
   ev.detail.complete();
-};
+}
 
 toggleReorderGroup() {
   this.reorderGroup.disabled = !this.reorderGroup.disabled;

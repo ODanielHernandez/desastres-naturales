@@ -13,8 +13,8 @@
             <h2> Lista de materiales para este desastre </h2>
             <ion-reorder-group (ionItemReorder)="doReorder($event)" disabled="false">
                 <ion-item *ngFor="let ig of loadedSiniestro.mochila">
-                    <ion-icon name="radio-button-off" slot="start"></ion-icon>
-                    <ion-label> {{ ig }} </ion-label>
+                    <ion-checkbox slot="start"></ion-checkbox>
+                    <ion-label> {{ ig.value }} </ion-label>
                     <ion-reorder></ion-reorder>
                 </ion-item>
             </ion-reorder-group>

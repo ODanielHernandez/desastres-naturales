@@ -1,20 +1,22 @@
 import { Injectable } from '@angular/core';
-import { Material } from '../../../materiales/material.model';
+import { GlobalService } from '../tabs/global.service';
+import { ListaSiniestrosService } from '../../lista-siniestros.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class MaterialService {
-  private materials: Material[] = [
-    {
-      id : 'm1',
-      nombre: 'agua',
-      cantidad: 2,
-      tipo: 'basico',
-    }
-  ];
+  private currentItem: any;
 
-  constructor() { }
+  public materials = [
+      { id: 'S1', val: 'Pepperoni', isChecked: false }
+    ];
+
+  constructor(public global: GlobalService, private listaSiniestrosService: ListaSiniestrosService) { }
+
+  getCurrentItem(){
+    this.currentItem = this.listaSiniestrosService.getSiniestro(this.global.globalSiniestroId);
+  }
 
   getAllMaterials(){
     return [...this.materials];
